@@ -41,6 +41,7 @@ function Feed({personal}) {
 
   const getAllTweets = async() => {
     try {
+      console.log("Reached here for get all tweets")
       const {ethereum} = window
       console.log("reached1")
       if(ethereum) {
@@ -53,7 +54,8 @@ function Feed({personal}) {
         )
         console.log("reached2")  
         let allTweets = await TwitterContract.getAllTweets();
-        console.log("reached3")
+        console.log(allTweets, 'alltweets')
+
         setPosts(getUpdatedTweets(allTweets, ethereum.selectedAddress));
       } else {
         console.log("Ethereum object doesn't exist");
@@ -65,7 +67,7 @@ function Feed({personal}) {
 
   useEffect(() => {
     getAllTweets();
-  }, []);
+},[]);
 
   const deleteTweet = key => async() => {
     console.log(key);

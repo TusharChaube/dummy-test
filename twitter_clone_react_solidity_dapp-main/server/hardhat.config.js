@@ -17,12 +17,22 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
+// module.exports = {
+//   solidity: "0.8.4",
+//   networks: {
+//     sepolia: {
+//       url: process.env.ALCHEMY_RINKEBY_URL,
+//       accounts: [process.env.ACCOUNT_PRIVATE_KEY],
+//     }
+//   }
+// };
+
 module.exports = {
   solidity: "0.8.4",
   networks: {
-    rinkeby: {
-      url: process.env.ALCHEMY_RINKEBY_URL,
-      accounts: [process.env.ACCOUNT_PRIVATE_KEY],
+    sepolia: {
+      url: `${process.env.ALCHEMY_RINKEBY_URL}`,
+      accounts: [`0x${process.env.ALCHEMY_PRIVATE_key}`],
     }
   }
 };

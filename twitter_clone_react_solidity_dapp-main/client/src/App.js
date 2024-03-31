@@ -22,9 +22,9 @@ function App() {
       let chainId = await ethereum.request({ method: 'eth_chainId'})
       console.log('Connected to chain:' + chainId)
 
-      const SepoliaChainId = '0xaa36a7'
+      const GoerliChainId = '0xaa36a7'
 
-      if (chainId !== SepoliaChainId) {
+      if (chainId !== GoerliChainId) {
         alert('You are not connected to the Rinkeby Testnet!')
         return
       }

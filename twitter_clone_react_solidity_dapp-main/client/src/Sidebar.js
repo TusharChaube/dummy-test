@@ -18,7 +18,6 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <TwitterIcon className="sidebar__twitterIcon" />
-
       <SidebarOption Icon={HomeIcon} text="Home" />
       <Link href="https://twitter.com/explore" variant="body2">
       <SidebarOption Icon={SearchIcon} text="Explore"/> 
@@ -26,10 +25,16 @@ function Sidebar() {
       <Link href="https://twitter.com/notifications" variant="body2">
       <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
       </Link>
+      <Link href="https://twitter.com/messages" variant="body2">
       <SidebarOption Icon={MailOutlineIcon} text="Messages" />
+      </Link>
       <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" />
+      <Link href="https://twitter.com/tushar_chaube/lists" variant="body2">
       <SidebarOption Icon={ListAltIcon} text="Lists"/>
+      </Link>
+      <Link href="https://twitter.com/tushar_chaube" variant="body2">
       <SidebarOption Icon={PermIdentityIcon} text="Profile"/>
+      </Link>
       <SidebarOption Icon={MoreHorizIcon} text="More" />
 
       {/* Button -> Tweet */}
