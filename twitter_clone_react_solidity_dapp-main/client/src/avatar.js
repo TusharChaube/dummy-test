@@ -1,6 +1,6 @@
 const configs = {
   topType: [
-    'NoHair',
+    // 'NoHair',
     // 'Eyepatch',
     // 'Hat',
     // 'Hijab',
@@ -12,7 +12,7 @@ const configs = {
     // 'LongHairBigHair',
     // 'LongHairBob',
     // 'LongHairBun',
-    // 'LongHairCurly',
+    'LongHairCurly',
     // 'LongHairCurvy',
     // 'LongHairDreads',
     // 'LongHairFrida',
@@ -28,16 +28,16 @@ const configs = {
     // 'ShortHairDreads02'
   ],
   accessoriesType: [
-    'Blank',
+    // 'Blank',
     // 'Kurt',
     // 'Prescription01',
     // 'Prescription02',
     // 'Round',
-    // 'Sunglasses',
+    'Sunglasses',
     // 'Wayfarers'
   ],
   hatColor: [
-    'Black',
+    // 'Black',
     // 'Blue01',
     // 'Blue02',
     // 'Blue03',
@@ -47,7 +47,7 @@ const configs = {
     // 'PastelBlue',
     // 'PastelGreen',
     // 'PastelOrange',
-    // 'PastelRed',
+    'PastelRed',
     // 'PastelYellow',
     // 'Pink',
     // 'Red',
@@ -66,8 +66,8 @@ const configs = {
     // 'SilverGray'
   ],
   facialHairType: [
-    'Blank',
-    // 'BeardMedium',
+    // 'Blank',
+    'BeardMedium',
     // 'BeardLight',
     // 'BeardMajestic',
     // 'MoustacheFancy',
@@ -84,21 +84,21 @@ const configs = {
     // 'Red'
   ],
   clotheType: [
-    'BlazerShirt',
+    // 'BlazerShirt',
     // 'BlazerSweater',
     // 'CollarSweater',
     // 'GraphicShirt',
-    // 'Hoodie',
+    'Hoodie',
     // 'Overall',
     // 'ShirtCrewNeck',
     // 'ShirtScoopNeck',
     // 'ShirtVNeck'
   ],
   clotheColor: [
-    'Black',
+    // 'Black',
     // 'Blue01',
     // 'Blue02',
-    // 'Blue03',
+    'Blue03',
     // 'Gray01',
     // 'Gray02',
     // 'Heather',
@@ -112,10 +112,10 @@ const configs = {
     // 'White'
   ],
   graphicType: [
-    'Bat',
+    // 'Bat',
     // 'Cumbia',
     // 'Deer',
-    // 'Diamond',
+    'Diamond',
     // 'Hola',
     // 'Pizza',
     // 'Resist',
@@ -125,12 +125,12 @@ const configs = {
     // 'Skull'
   ],
   eyeType: [
-    'Close',
+    // 'Close',
     // 'Cry',
     // 'Default',
     // 'Dizzy',
     // 'EyeRoll',
-    // 'Happy',
+    'Happy',
     // 'Hearts',
     // 'Side',
     // 'Squint',
@@ -139,12 +139,12 @@ const configs = {
     // 'WinkWacky'
   ],
   eyebrowType: [
-    'Angry',
+    // 'Angry',
     // 'AngryNatural',
     // 'Default',
     // 'DefaultNatural',
     // 'FlatNatural',
-    // 'RaisedExcited',
+    'RaisedExcited',
     // 'RaisedExcitedNatural',
     // 'SadConcerned',
     // 'SadConcernedNatural',
@@ -153,7 +153,7 @@ const configs = {
     // 'UpDownNatural'
   ],
   mouthType: [
-    'Concerned',
+    // 'Concerned',
     // 'Default',
     // 'Disbelief',
     // 'Eating',
@@ -161,7 +161,7 @@ const configs = {
     // 'Sad',
     // 'ScreamOpen',
     // 'Serious',
-    // 'Smile',
+    'Smile',
     // 'Tongue',
     // 'Twinkle',
     // 'Vomit'
@@ -170,10 +170,10 @@ const configs = {
     // 'Tanned',
     // 'Yellow',
     // 'Pale',
-    // 'Light',
+    'Light',
     // 'Brown',
     // 'DarkBrown',
-    'Black'
+    // 'Black'
   ]
 }
 
